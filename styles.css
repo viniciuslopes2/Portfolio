@@ -247,6 +247,13 @@ body {
 .habilidade-tag.mysql { background-color: #4479A1; }
 .habilidade-tag.kotlin { background-color: #7F52FF; }
 .habilidade-tag.c-lang { background-color: #A8B9CC; color: #000; }
+.habilidade-tag.react { background-color: #61DAFB; color: #000; }
+.habilidade-tag.nodejs { background-color: #68A063; }
+.habilidade-tag.flask { background-color: #000000; }
+.habilidade-tag.mongodb { background-color: #47A248; }
+.habilidade-tag.git { background-color: #F05032; }
+.habilidade-tag.docker { background-color: #2496ED; }
+
 
 .section-projetos {
     padding-top: 4rem;
@@ -327,6 +334,33 @@ body {
     margin-left: 0.5rem;
 }
 
+.button-cv {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    background-color: var(--cor-primaria);
+    color: white;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    margin-top: 1.5rem;
+}
+
+.button-cv:hover {
+    background-color: var(--cor-primaria-hover);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
+
+.button-cv svg {
+    height: 1.25rem;
+    width: 1.25rem;
+    margin-right: 0.5rem;
+}
+
+
 .section-contato {
     padding-top: 4rem;
     padding-bottom: 4rem;
@@ -391,5 +425,14 @@ body {
     }
     .flex-box {
         flex-basis: calc(50% - 1rem);
+    }
+    
+    .apresentacao-container {
+        justify-content: center;
+        gap: 3rem;
+    }
+    .texto-header {
+        flex-basis: 50%;
+        max-width: 600px;
     }
 }
