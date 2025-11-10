@@ -281,6 +281,7 @@ body {
     width: 100%;
     height: auto;
     object-fit: cover;
+    aspect-ratio: 16 / 9;
 }
 
 .projeto-card:hover {
@@ -360,10 +361,15 @@ body {
     margin-right: 0.5rem;
 }
 
+.section-certificados {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
 
 .section-contato {
     padding-top: 4rem;
     padding-bottom: 4rem;
+    background-color: var(--cor-fundo-secundario);
 }
 
 .contato-links {
