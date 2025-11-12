@@ -375,9 +375,11 @@ body {
 .contato-links {
     margin-top: 2rem;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
     gap: 1.5rem;
+    flex-wrap: wrap;
 }
 
 .contato-link-item {
